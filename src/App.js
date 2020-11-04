@@ -6,6 +6,10 @@ import TodoList from './components/TodoList';
 import TodoCreate from './components/TodoCreate';
 import { TodoProvider } from './TodoContext';
 
+/**
+ * 참고블러그
+ * https://react.vlpt.us/mashup-todolist/03-implement.html
+ */
 const GlobalStyle = createGlobalStyle`
   body {
     background: #e9ecef;
